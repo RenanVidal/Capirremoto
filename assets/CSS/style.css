@@ -4,6 +4,7 @@
 
 body {
     background-image: linear-gradient(to top, #000000, #0b0002, #130004, #1a0104, #1f0103, #280507, #310709, #3b070b, #4e0710, #610612, #750512, #890511);
+    color: var(--cor-icones-padrao);
 }
 
 /* Cabeçalho */
