@@ -1,0 +1,85 @@
+:root {
+    --cor-icones-padrao: white;
+}
+
+body {
+    background-image: linear-gradient(to top, #000000, #0b0002, #130004, #1a0104, #1f0103, #280507, #310709, #3b070b, #4e0710, #610612, #750512, #890511);
+}
+
+/* Cabeçalho */
+
+.cabecalho__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-size: 1.5rem;
+    color: var(--cor-icones-padrao);
+    padding: 0.5em 0.5em;
+}
+
+.cabecalho__lista {
+    display: flex;
+}
+
+.cabecalho__item {
+    padding-left: .3em;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+    background-image: url(../Image/banner.jpg);
+    background-size: 100%;
+    color: var(--cor-icones-padrao);
+    text-align: center;
+}  
+
+/* Cartões */
+
+.nome__secao {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor-icones-padrao);
+    margin: 1em;
+}
+
+.card__impar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid rgb(88, 58, 58);
+    border-radius: 10px;
+    margin: 1rem 1rem;
+}
+.card__perfil {
+    border: 3px solid black;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.card__link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.card__par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: 1px solid rgb(88, 58, 58);
+    border-radius: 10px;
+    margin: 1rem 1rem;
+}
