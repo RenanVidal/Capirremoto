@@ -1,10 +1,15 @@
 :root {
     --cor-icones-padrao: white;
+    --fonte-titulos: 'Teko', sans-serif;
+    --fonte-primaria: 'Nanum Gothic', sans-serif; 
 }
 
 body {
     background-image: linear-gradient(to top, #000000, #0b0002, #130004, #1a0104, #1f0103, #280507, #310709, #3b070b, #4e0710, #610612, #750512, #890511);
     color: var(--cor-icones-padrao);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    
 }
 
 /* Cabeçalho */
@@ -32,34 +37,56 @@ body {
 .banner {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 12rem;
     background-image: url(../Image/banner.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     color: var(--cor-icones-padrao);
     text-align: center;
 }  
 
 .banner__titulo {
-    font-size: 25px;
-    font-weight: bold;
+    font-family: var(--fonte-titulos);
+    font-size: 35px;
+    font-weight: 500;
     padding: 1rem 1rem 1rem 1rem;
 }
 
-/* Cartões */
+.banner__texto {
+    font-weight: 700;
+    padding: .5rem;
+}
+
+
+/* Configurações Gerais das seções*/
 
 .nome__secao {
-    font-size: 25px;
-    font-weight: bold;
+    font-family: var(--fonte-titulos);
+    font-size: 30px;
+    font-weight: 400;
     text-align: center;
     color: var(--cor-icones-padrao);
     margin: 1em;
 }
 
+strong {
+    font-weight: 800;
+}
+
+/* Sobre */
+
+.sobre__descricao {
+    text-align: center;
+}
+
+/* Equipe */
+
 .card__impar{
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     font-size: 14px;
@@ -70,15 +97,38 @@ body {
 .card__perfil {
     border: 3px solid black;
     border-radius: 100%;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height:7rem;
+    margin: .5rem .5rem;
+}
+
+.card__nome{
+    text-align: left;
+    padding: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card__descricao {
+    text-align: justify;
+    padding: .5rem;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .card__link {
+    font-size: 16px;
     display: flex;
-    justify-content: end;
     align-items: center;
-    padding-left: 1rem;
+    padding: .5rem;
+}
+.card__link i {
+    font-size: 16px;
+    padding-right: .5rem;
+}
+
+.card__impar .card__link {
+    justify-items: ;
 }
 
 .card__par{
@@ -89,6 +139,10 @@ body {
     border: 1px solid rgb(88, 58, 58);
     border-radius: 10px;
     margin: 1rem 1rem;
+}
+
+.card__par .card__link {
+    justify-items: start;
 }
 
 /* Recomendaçõe */
