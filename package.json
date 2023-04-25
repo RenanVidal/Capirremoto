@@ -1,0 +1,11 @@
+{
+  "name": "capirremoto",
+  "version": "1.0.0",
+  "description": "Projeto para meu portfolio e para testar meus conhecimentos adquiridos de HTML e CSS, não sou designer então desculpas!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

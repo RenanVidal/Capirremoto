@@ -148,6 +148,47 @@ strong {
     justify-items: start;
 }
 
+
+/* Agenda */
+
+.agenda {
+    
+}
+
+.agendaEventos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+.agenda__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.agenda__descricao {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+
+}
+
+.agenda__eventos {
+    font-size: 1.5rem;
+}
+
+.agenda__link {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.agenda__link i {
+    font-size: 2rem;
+}
+
 /* Recomendaçõe */
 
 .recomendacoes {
@@ -155,7 +196,8 @@ strong {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 1rem;
+    text-align: justify;
+    padding: 1rem;
 }
 
 .recomendacoes__video {
